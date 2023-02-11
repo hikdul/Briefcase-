@@ -3,7 +3,7 @@ import AboutMe from "../Pages/AboutMe/AboutMe";
 import Hikdul from "../Pages/hikdul/Hikdul";
 import Home from "../Pages/Home/Home";
 import NotFound from "../Pages/NotFound";
-import Projects from "../Pages/Projects/Projects";
+import {Projects, Project } from "../Pages/Projects";
 import TimeLine from "../Pages/TimeLine/TimeLine";
 
 export const routes: Iroutes[] =[
@@ -23,6 +23,10 @@ export const routes: Iroutes[] =[
     {
         path:'Projects',
         element: Projects 
+    },
+    {
+        path:'Projects/:id',
+        element: Project 
     },
     {
         path:'/TimeLine',

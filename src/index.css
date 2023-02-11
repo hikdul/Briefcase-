@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 20px;
+}
+
 body {
   margin: 0;
   font-family: 'fira code';
@@ -13,5 +17,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #333;
   color: #fff;
+  font-size: 1rem;
 }
+
 
