@@ -1,4 +1,4 @@
-import { faCoffee, faHome, faBriefcase, faH, faUserCheck  } from '@fortawesome/free-solid-svg-icons'
+import { faCoffee, faBriefcase, faH, faUserCheck  } from '@fortawesome/free-solid-svg-icons'
 import { IMenuIcon } from '../interfaces/IMenuIcon';
 
 export const MenuButtonsList: IMenuIcon[] =[
@@ -6,11 +6,6 @@ export const MenuButtonsList: IMenuIcon[] =[
        icon: faH,
         label: "Hikdul",
         to: '/hikdul'
-    },
-    {
-        icon: faHome,
-        label: "Home",
-        to: '/'
     },
     {
         icon: faBriefcase,

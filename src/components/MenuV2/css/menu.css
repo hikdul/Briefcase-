@@ -82,7 +82,7 @@ nav>.body>.cont-links>.link {
     margin-bottom: 2rem;
 }
 
-nav>.body>.cont-links>.link>i {
+nav>.body>.cont-links>.link>.i {
     font-size: 50px;
 }
 
@@ -126,12 +126,21 @@ nav>.footer>.cont-medias {
     justify-content: space-around;
 }
 
+/* * Media Query's*/
+
+@media only screen and (max-width: 1339px) {
+
+    nav {
+        max-width: 5rem;
+    }
+
+}
 /*
     en W = 374 es el maximo que puede mantener el tamaño grande, Pero en realidad me gustaria que cambiara a partir de 
     W=665 H=580
     en este punto de 580 de alto ya empieza a tomar los tamanos maximos y tengo de cambiar hasta de tamanos y todos con los medias querys
 */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 700px) {
     /*
  575
  */
@@ -139,7 +148,7 @@ nav>.footer>.cont-medias {
     nav {
         position: relative;
         width: 100%;
-        max-width: 575px;
+        max-width: 700px;
         height: 15vh;
         /* background: #fff; */
         box-shadow: 25px 25px 75px rgba(0, 0, 0, .25),
@@ -171,10 +180,7 @@ nav>.footer>.cont-medias {
         font-size: 3em;
     }
 
-    nav>.header>.cont-icon>.icon:hover {}
-
     /*body*/
-    nav>.body {}
 
     nav>.body>.cont-links {
         padding-top: 1.5em;
@@ -184,10 +190,8 @@ nav>.footer>.cont-medias {
         align-items: center;
     }
 
-    nav>.body>.cont-links>.link {}
-
-    nav>.body>.cont-links>.link>i {
-        font-size: 2em;
+    nav>.body>.cont-links>.link>.i {
+        font-size: 1.5em;
         transition: .5s;
     }
 

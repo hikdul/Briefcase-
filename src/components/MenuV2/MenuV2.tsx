@@ -3,10 +3,13 @@ import { MenuButtonsList } from "../../constants/InitialMenuState";
 import { listMediaLinks } from "../../constants/mediaLinks";
 import LinkV2 from "./LinkV2";
 import MediaLink from "./MediaLink";
-import "./menu.css";
-
+import "./css/menu.css";
+import '../../assets/jera/style.css'
+ 
 export const MenuV2 = () => {
+  
   return (
+
     <nav>
       <div className="header">
         <NavLink to="/" className="cont-icon">

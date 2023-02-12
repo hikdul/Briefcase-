@@ -5,7 +5,7 @@ import { IMenuIcon } from "../../interfaces/IMenuIcon";
 const LinkV2 = ({ to, label, icon }: IMenuIcon) => {
   return (
     <NavLink className="link" to={to}>
-      <FontAwesomeIcon icon={icon} />
+      <FontAwesomeIcon className="i" icon={icon} />
       <span className="name">{label}</span>
     </NavLink>
   );

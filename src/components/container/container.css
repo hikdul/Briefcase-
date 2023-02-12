@@ -1,10 +1,23 @@
-
-.container
-{
+.container {
   max-width: 80%;
   padding-top: 10px;
   margin-left: auto;
-  margin-right: auto;  
+  margin-right: auto;
   margin-top: 0;
   overflow: hidden;
+}
+
+@media only screen and (max-width: 1339px) {
+
+    .container {
+     max-width: 70%;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .container {
+     max-width: 90%;
+    }
 }

@@ -1,14 +1,19 @@
 import { Imedia } from "../interfaces/Imedia"
-import { faLink  } from '@fortawesome/free-solid-svg-icons'
-import { faFileAlt  } from '@fortawesome/free-regular-svg-icons'
+import github from '../assets/social-medias/github.svg'
+import youtube from '../assets/social-medias/youtube.svg'
+import linkenid from '../assets/social-medias/linkedin.svg'
 
 export const listMediaLinks: Imedia[] = [
     {
         to: 'https://www.linkedin.com/in/hikdul',
-        icon: faFileAlt 
+        icon: linkenid 
     },
     {
         to: 'https://github.com/hikdul',
-        icon: faLink
+        icon: github
     },
+    {
+        to: 'https://github.com/hikdul',
+        icon: youtube
+    }
 ]
